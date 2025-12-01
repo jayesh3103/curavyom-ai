@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 import time
 import asyncio
+import os
 from backend.agents.orchestrator import MasterAgent
 from backend.utils.pdf_processor import extract_text_from_pdf
 

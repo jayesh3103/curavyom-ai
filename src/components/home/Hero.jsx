@@ -79,11 +79,11 @@ export const Hero = () => {
                 Start Research
               </Button>
             </Link>
-            <Link to="/demo">
+            <a href="https://youtu.be/bnZej91-ImQ" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 text-white backdrop-blur-sm" icon={PlayCircle}>
                 Watch Demo
               </Button>
-            </Link>
+            </a>
           </div>
         </motion.div>
       </div>
